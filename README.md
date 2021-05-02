@@ -106,8 +106,8 @@ I could have continued to explore deeper and exclude words that do not seem to a
 
 # Articles
 
-- "Sentiment Analysis on the Texts of Harry Potter", Greg Rafferty, shorturl.at/dhlJ7
-- "Brazilian Heavy Metal: An Exploratory Data Analysis using NLP and LDA" , Flávio Clésio , shorturl.at/itGL1
+- "Sentiment Analysis on the Texts of Harry Potter", Greg Rafferty, https://shorturl.at/dfinC
+- "Brazilian Heavy Metal: An Exploratory Data Analysis using NLP and LDA" , Flávio Clésio , https://shorturl.at/lsGMU
 - https://www.nltk.org/install.html
 - https://scikit-learn.org/stable/modules/clustering.html#clustering
 - https://pypi.org/project/gensim/
