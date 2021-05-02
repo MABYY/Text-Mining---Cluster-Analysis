@@ -1,5 +1,30 @@
 # Text-Mining---Cluster-Analysis
 
+This project uses different text mining techniques to assess whether Shakespeare was a single genius or a team of playwrights
+
+#  Development setup
+
+Several libraries are adopted along the project.
+
+- Sentiment Analysis libraries: 
+
+> pip install textblob
+
+> pip install vaderSentiment
+
+- Text pipeline and NLP packages
+> pip install --user -U nltk
+
+- Cluster analysis
+> pip install -U scikit-learn
+
+LDA Model 
+> pip install gensim
+> pip install pyldavis
+> pip install pprintpp
+
+#  The Model
+
 In order to determine whether Shakespeare was a single genius or team of playwrights, we implemented several tools learned in class to inspect the master pieces. 
 
 To begin with, we decided to check whether there was any particular sentiment pattern both across each text and across all of the pieces. We applied Textblob to each of the lines and calculated the polarity score proportion of each sentiment (Positive, Negative, Neutral) to each piece. We can see the results pasted in a bar plot; the “Neutral” sentiment dominates the results and none of the texts exhibit a clear “Positive” or “Negative” tendency. 
@@ -76,5 +101,20 @@ A Comedy of Errors
 
 I could have continued to explore deeper and exclude words that do not seem to add information to the LDA analysis. Due to time constraint I have stopped the analysis here. We could explore in each text if there is any pattern in the different characters of the texts that belong to the same cluster. That could be done by first identifying the lines of each of this character and reorganize the LDA analysis by means of characters and not texts. The result of this analysis would show us whether characters share common patters. This could lead us to conclude whether writing patterns change among characters and clusters. 
 
+# Articles
 
+- "Sentiment Analysis on the Texts of Harry Potter", Greg Rafferty, shorturl.at/dhlJ7
+- "Brazilian Heavy Metal: An Exploratory Data Analysis using NLP and LDA" , Flávio Clésio , shorturl.at/itGL1
+- https://www.nltk.org/install.html
+- https://scikit-learn.org/stable/modules/clustering.html#clustering
+- https://pypi.org/project/gensim/
+- https://pypi.org/project/pyLDAvis/
+- https://pypi.org/project/pprintpp/
 
+## Contributing
+
+- Fork this project
+- Create your feature branch
+- Commit your changes
+- Push to the branch
+- Create a new Pull Request
