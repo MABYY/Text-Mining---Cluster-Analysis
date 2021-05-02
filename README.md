@@ -13,14 +13,17 @@ Several libraries are adopted along the project.
 > pip install vaderSentiment
 
 - Text pipeline and NLP packages
+
 > pip install --user -U nltk
 
 - Cluster analysis
 > pip install -U scikit-learn
 
-LDA Model 
+- LDA Model 
 > pip install gensim
+
 > pip install pyldavis
+
 > pip install pprintpp
 
 #  The Model
